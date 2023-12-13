@@ -15,6 +15,15 @@ namespace AzimAndSonApp
     {
 
         /// <summary>
+        /// User_Id_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label User_Id_Label;
+
+        /// <summary>
         /// User_ID_Txt control.
         /// </summary>
         /// <remarks>
@@ -33,13 +42,13 @@ namespace AzimAndSonApp
         protected global::System.Web.UI.WebControls.RequiredFieldValidator User_ID_RequiredFieldValidator;
 
         /// <summary>
-        /// Get_Button control.
+        /// First_Name_Label control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Get_Button;
+        protected global::System.Web.UI.WebControls.Label First_Name_Label;
 
         /// <summary>
         /// First_Name_Txt control.
@@ -60,6 +69,24 @@ namespace AzimAndSonApp
         protected global::System.Web.UI.WebControls.RequiredFieldValidator First_Name_RequiredFieldValidator;
 
         /// <summary>
+        /// First_Name_RegularExpressionValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator First_Name_RegularExpressionValidator;
+
+        /// <summary>
+        /// Last_Name_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Last_Name_Label;
+
+        /// <summary>
         /// Last_Name_Txt control.
         /// </summary>
         /// <remarks>
@@ -76,6 +103,24 @@ namespace AzimAndSonApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator last_Name_RequiredFieldValidator;
+
+        /// <summary>
+        /// Last_Name_RegularExpressionValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator Last_Name_RegularExpressionValidator;
+
+        /// <summary>
+        /// Email_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Email_Label;
 
         /// <summary>
         /// Email_Txt control.
@@ -105,6 +150,15 @@ namespace AzimAndSonApp
         protected global::System.Web.UI.WebControls.RegularExpressionValidator Email_RegularExpressionValidator;
 
         /// <summary>
+        /// Password_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Password_Label;
+
+        /// <summary>
         /// Password_Txt control.
         /// </summary>
         /// <remarks>
@@ -123,6 +177,24 @@ namespace AzimAndSonApp
         protected global::System.Web.UI.WebControls.RequiredFieldValidator Password_RequiredFieldValidator;
 
         /// <summary>
+        /// Password_RegularExpressionValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator Password_RegularExpressionValidator;
+
+        /// <summary>
+        /// Confirm_Password_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Confirm_Password_Label;
+
+        /// <summary>
         /// Confirm_Password_Txt control.
         /// </summary>
         /// <remarks>
@@ -139,6 +211,15 @@ namespace AzimAndSonApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator Confirm_Password_RequiredFieldValidator;
+
+        /// <summary>
+        /// Confirm_Password_RegularExpressionValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator Confirm_Password_RegularExpressionValidator;
 
         /// <summary>
         /// Insert_Button control.
@@ -175,6 +256,15 @@ namespace AzimAndSonApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Search_Button;
+
+        /// <summary>
+        /// Get_Button control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Get_Button;
 
         /// <summary>
         /// GridView1 control.

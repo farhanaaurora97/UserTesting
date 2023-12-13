@@ -18,6 +18,13 @@ namespace AzimAndSonApp
             {
                 GetUserList();
             }
+
+            //string message = "Data saved successfully";
+            //System.Text.StringBuilder sb = new System.Text.StringBuilder();
+            //sb.Append("alert('");
+            //sb.Append(message);
+            //sb.Append("');");
+            //ClientScript.RegisterOnSubmitStatement(this.GetType(), "alert", sb.ToString());
         }
 
         protected void Insert_Button_Click(object sender, EventArgs e)
@@ -43,23 +50,32 @@ namespace AzimAndSonApp
                 command.ExecuteNonQuery();
                 connection.Close();
 
+                //string message = "Data saved successfully";
+                //System.Text.StringBuilder sb = new System.Text.StringBuilder();
+                //sb.Append("alert('");
+                //sb.Append(message);
+                //sb.Append("');");
+                //ClientScript.RegisterOnSubmitStatement(this.GetType(), "alert", sb.ToString());
+
                 string message = "Data saved successfully";
                 string script = "window.onload = function () { alert('";
                 script += message;
                 script += "')};";
                 ClientScript.RegisterStartupScript(this.GetType(), "SuccessMessage", script, true);
-                //ScriptManager.RegisterStartupScript(this, this.GetType(), "script", "alert('Successfully saved');", true);
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "script", "alert('Successfully saved');", true);
                 GetUserList();
+
+                Response.Redirect("Default.aspx");
             }
-            else
-            {
-                string message = "Validation Error! Data not Saved";
-                string script = "window.onload = function () { alert('";
-                script += message;
-                script += "')};";
-                ClientScript.RegisterStartupScript(this.GetType(), "FailedMessage", script, true);
-                //ScriptManager.RegisterStartupScript(this, this.GetType(), "script", "alert('Validation Error! Data not Saved');", true);
-            }
+            //else
+            //{
+            //    string message = "Validation Error! Data not Saved";
+            //    string script = "window.onload = function () { alert('";
+            //    script += message;
+            //    script += "')};";
+            //    ClientScript.RegisterStartupScript(this.GetType(), "FailedMessage", script, true);
+            //    //ScriptManager.RegisterStartupScript(this, this.GetType(), "script", "alert('Validation Error! Data not Saved');", true);
+            //}
 
 
             //if (User_ID_Txt.Text == "")
@@ -67,7 +83,7 @@ namespace AzimAndSonApp
             //    User_Id_CustomValidator.ServerValidate();
             //}
 
-
+            
         }
 
         void GetUserList()
